@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('C:/Users/ULTIMATE IT SOLUTION/Desktop/my_site/loginpage_img.png'); /* Replace 'your-image-url.jpg' with the URL of your background image */
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value to change the transparency of the background image */
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.App-header {
+  color: white;
+  padding: 40px;
+}
+
+.AuthOptions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: right; /* Align content to the right */
+}
+
+.Content {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0); /* Set alpha value to 0 for full transparency */
+  border-radius: 10px;
+  margin-top: 20px;
+  color: black; /* Ensure text is visible */
+  text-align: left; /* Align content to the left */
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
